@@ -19,3 +19,4 @@ try:
 except ValueError:
     # Capturar el error en caso de que el usuario no ingrese un número entero
     print("Error: Debes ingresar un número entero.")
+# Fin
