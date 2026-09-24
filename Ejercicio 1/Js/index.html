@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Clasificador de Edad</title>
+</head>
+<body>
+    <h1>Clasificador de Edad en JavaScript</h1>
+
+    <script>
+        const edad = parseInt(prompt("Por favor, ingresa tu edad:"), 10);
+
+        if (isNaN(edad) || edad < 0) {
+            alert("Por favor, ingresa una edad válida.");
+        } else {
+            if (edad < 13) {
+                alert("Eres un niño.");
+            } else if (edad >= 13 && edad <= 17) {
+                alert("Eres un adolescente.");
+            } else if (edad >= 18 && edad <= 64) {
+                alert("Eres un adulto.");
+            } else {
+                alert("Eres un adulto mayor.");
+            }
+        }
+    </script>
+</body>
+</html>
