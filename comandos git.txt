@@ -1,0 +1,23 @@
+git config --global user.name "nombre_usuario"
+git config --global user.email "correo"
+
+
+git init (Inicia repositorio)
+git status (Ver estado del repositorio)
+
+git add archivo.txt (Pasar al borrador solo un archivo)
+git add . (Añade todo)
+git add -A (Añade todo incluido los borrados)
+
+git commit -m "Mensaje claro y en presente"
+
+(Ver historial)
+git log
+git log --oneline
+git log -p
+
+(Para subir al repo remoto)
+git remote add origin <url_del_repo>
+
+git branch -M main
+git push -u origin main 
